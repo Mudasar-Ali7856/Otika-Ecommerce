@@ -1,0 +1,168 @@
+@extends('frontend.layout.app')
+@section('frontend_main')
+    <div class="blue_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Featured Products</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- project section -->
+    <div id="project" class="project">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="product_main">
+
+                    <div class="project_box ">
+                        <div class="dark_white_bg"><img src="images/shoes1.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+
+                    <div class="project_box ">
+                        <div class="dark_white_bg"><img src="images/shoes2.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/shoes3.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/shoes4.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/shoes5.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+
+                    <div class="project_box ">
+                        <div class="dark_white_bg"><img src="images/tisat1.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box ">
+                        <div class="dark_white_bg"><img src="images/tisat2.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/tisat3.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/tisat4.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/tisat5.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+
+                    <div class="project_box ">
+                        <div class="dark_white_bg"><img src="images/mix1.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box ">
+                        <div class="dark_white_bg"><img src="images/mix2.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/mix3.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/mix4.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="project_box">
+                        <div class="dark_white_bg"><img src="images/mix5.png" alt="#" /></div>
+                        <h3>Short Openwork Cardigan $120.00</h3>
+                        <ul class="right_icon d_none1">
+                            <li><a href="#"></a> </li>
+                            <a href="#" class="order">Shop Now</a>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-12">
+                        <a class="read_more" href="#">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end project section -->
+@endsection
