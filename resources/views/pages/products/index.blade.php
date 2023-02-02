@@ -40,8 +40,8 @@
                                                 <td><img style="width: 40px" src="{{asset('/images/'.$product->image)}}" alt="image"></td>
                                                 <td>{{$product->description}}</td>
                                                 <td>{{$product->order}}</td>
-                                                <td>{{$product->category}}</td>
-                                                @endforeach
+                                                <td>{{$product->category->name}}</td>
+
 
 
                                                 <td>
@@ -54,6 +54,7 @@
                                                         data-confirm-yes="alert('Deleted')"><i class="fas fa-trash"></i></a>
 
                                                 </td>
+                                                @endforeach
                                             </tr>
 
                                     </table>

@@ -16,25 +16,25 @@
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
                                             <label>Name</label>
-                                            <input type="text" class="form-control" required="" name="name"
+                                            <input type="text" class="form-control" required="" name="name" value="{{$categories->name ?? ''}}"
                                                 placeholder="Name">
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>Image</label>
-                                            <input type="file" class="form-control" required="" name="image"
+                                            <input type="file" class="form-control" required="" name="image" data-default-file="{{asset('/images/'.$products->image) ?? ''}}"
                                                 required="" placeholder="Image">
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6" name="description">
                                             <label for="">Description</label>
-                                            <textarea class="form-control" required=""></textarea>
+                                            <textarea class="form-control" value="{{$categories->description ?? ''}}" required=""></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group mb-3">
                                         <label for="order" class="control-label">Order</label>
-                                        <input class="form-control is-valid" placeholder="Order by" v-pre name="order"
-                                            type="number" value="0" id="order" aria-invalid="false"
+                                        <input class="form-control is-valid" placeholder="Order by" v-pre name="order" value="{{$categories->description ?? ''}}"
+                                            type=" number" value="0" id="order" aria-invalid="false"
                                             aria-describedby="order-error">
                                         <span id="order-error" class="invalid-feedback" style="display: inline;"></span>
                                     </div>

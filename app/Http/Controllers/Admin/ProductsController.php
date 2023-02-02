@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Products;
+use App\Models\Category;
 use Session;
 use Auth;
 use Hash;
@@ -14,11 +15,12 @@ use DB;
 class Productscontroller extends Controller
 {
     public function create(){
-        $products = Products::all();
+        $products = Products::with('Category')->get();
        return view('pages.products.index',compact('products'));
     }
 
     public function index(){
+
        return view('pages.products.form');
     }
 

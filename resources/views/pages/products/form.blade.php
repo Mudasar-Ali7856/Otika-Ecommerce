@@ -55,15 +55,10 @@
                                         </div>
                                     </div> --}}
                                     <div class="form-row">
-                                        <div class="ui-select-wrapper form-group col-md-6">
-                                            <label for="status">Category</label>
-                                            <select class="form-control ui-select is-valid" name="status">
-                                                <option value="#">Select Category</option>
-                                                <option value="">kids</option>
-                                                <option value="">women</option>
-                                                <option value="">men</option>
-                                            </select>
-                                            <svg class="svg-next-icon svg-next-icon-size-16"></svg>
+                                        <div class="form-group col-md-6">
+                                            <label for="name">Category</label>
+                                            <input type="text" class="form-control" id="category" name="category"
+                                                placeholder="Category">
                                         </div>
                                     </div>
                                     <div class="card-footer text-right">
